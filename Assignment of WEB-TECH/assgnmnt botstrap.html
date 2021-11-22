@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .main{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgba(128, 85, 156, 0.86);
+            list-style: none;
+            padding-right: 0px;
+            padding-left: 0px;
+            align-items: flex-start;
+
+            
+        }
+        .left-icons{
+           
+            display: flex;
+            justify-content: space-evenly;
+            width: 500px;
+            color: white;
+            font-size: 19px;
+            list-style: none;
+        }
+      
+        .right-icons{
+           
+            display: flex;
+            justify-content: space-evenly;
+            width: 400px;
+           list-style: none;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        
+        .container{
+           
+            display: flex;
+            justify-content: space-between;
+            padding-left: 100px;
+            padding-right: 50px;
+        }
+        h1{
+            
+            margin-bottom: 20px;
+            color: rgb(71, 70, 70);
+        }
+        p{
+            line-height: 30px;
+            margin-top: 1px;
+            color: rgb(73, 72, 72);
+            
+            
+        }
+        .btn1{ 
+            height: 50px;
+            width: 150px;
+            border-radius: 8px;
+            background-color: rgba(128, 85, 156, 0.86);
+            color: white;
+            border: 1px white solid;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .btn12{ 
+            height: 50px;
+            width: 150px;
+            border-radius: 8px;
+            border: 1px solid darkgrey;
+            color: rgb(54, 51, 51);
+           
+        }
+        .btn2{
+            height: 30px;
+            width: 150px;
+            border-radius: 5px;
+            background-color: rgba(128, 85, 156, 0.86);
+            color: white;
+            border: 1px white solid;
+        }
+        .btn2:hover{
+            background-color: rgb(243, 243, 148);
+            color: rgb(22, 17, 17);
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="main">
+            <div class="left">
+                <ul class="left-icons">
+                    <li>
+                        <i class="fab fa-2xl fa-bootstrap"></i>
+                    </li>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Docs</a>
+                    </li>
+                    <li>
+                        <a href="">Examples</a>
+                    </li>
+                    <li>
+                        <a href="">Icons</a>
+                    </li>
+                    <li>
+                        <a href="">Themes</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="right">
+                <ul class="right-icons">
+                    <li>
+                        <a href=""><i class="fab fa-2x fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fab fa-2x fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fab fa-2x fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fas fa-2x fa-spinner"></i></a>
+                    </li>
+                    <li>
+                        <button class="btn2">Download</button>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+        <div class="container">
+            <div class="para" style="font-size: 20px;">
+                <h1>Build fast, responsive <br> sites with Bootstrap</h1> <br>
+                <p>
+                    Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+                </p>
+                <button class="btn1">Get started</button> &nbsp; <button class="btn12">Download</button>
+            </div>
+            <div>
+
+                <img width="650px" height="400px" src="..//Assets/images/bootstrap.jpg" alt="">
+            </div>
+        </div>
+            
+</body>
+</html>

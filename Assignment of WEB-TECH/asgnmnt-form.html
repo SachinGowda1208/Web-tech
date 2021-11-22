@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Assignment</title>
+</head>
+<body> <div>
+    <h1> 1.HTML FORM </h1>
+  <form>
+    <div>
+      <lable for="firstname">First Name:</lable>
+      <input id="firstname" name="firstname" type="text" placeholder="" size="30" maxlength="" minlength="3" value="" requried>
+    </div>
+     <br>
+    <div>
+      <lable for="lastname">Last Name:</lable>
+      <input id="lastname" name="lastname" type="text" placeholder="" size="30" maxlength="" minlength="3" value="" requried>
+    </div>
+     <br>
+    <div>
+      <lable for="email">E-mail:</lable>
+      <input id="email" name="email" type="text" placeholder="" size="30" maxlength="" minlength="3" value="" requried>
+    </div>
+    <br>
+    <input type="radio" value="male">Male</input> <br>
+  <input type="radio" value="female">Female</input> <br>
+<input type="submit" value="Submit"> <input type="Reset">
+ 
+    </form>
+</div>
+<br>
+<br>
+    <div>
+    <h1> 2.Novell Service Login</h1>
+<form>
+<div>
+<lable for="username">Username:</lable>
+<input id="username" name="username" type="text" placeholder="" size="20" maxlength="15" minlength="3" value="" requried>
+</div> <br>
+<div>
+<lable for="password">Password:</lable>
+<input id="password" name="password" type="text" placeholder="" size="20" maxlength="8" minlength="3" value="" requried>
+</div> <br>  
+<div>
+<lable for="city">  City of <br> Employment:</lable>
+<input id="city" name="city" type="text" placeholder="" size="20" maxlength="" minlength="3" value="" requried>
+</div> <br>
+<div>
+<lable for="web">  Web Server:</lable>
+<input id="web" name="web" type="text" placeholder="---Choose a server---" size="20" maxlength="" minlength="3" value="" requried>
+</div> <br>
+<div>
+<table border="0" cellpadding="0" cellspacing="0">
+ <tr align="left">
+   <th rowspan="4" colspan="4">Please Specify <br> Your role</th>
+   <th><input type="radio" value="Admin">Admin</input><th>
+  </tr>
+  <tr align="left">
+    <th><input type="radio" value="Engineer">Engineer</input><th>
+  </tr>
+    <tr align="left">
+    <th><input type="radio" value="Manager">Manager</input><th>
+  </tr>
+      <tr align="left">
+    <th><input type="radio" value="Guest">Guest</input><th>
+  </tr></table>
+<br>
+<table border="0" cellpadding="0" cellspacing="0">
+     <th rowspan="3" colspan="3">Single Sign-on<br> to the following</th>
+   <th align="left"><input type="checkbox" value="Mail">Mail</input><th>
+  </tr>
+<tr align="left">
+    <th><input type="checkbox" value="Payroll">Payroll</input><th>
+  </tr>
+<tr align="left">
+    <th><input type="checkbox" value="Self-Service">Self-Service</input><th>
+</tr></table>
+<br>
+<table border="0" cellpadding="0" cellspacing="0">
+  <th colspan="2"></th>
+  <th><input value="Login"type="submit"></th>
+  <th><input value="Reset"type="reset">
+</table>
+</form>
+</div>
+<div>
+    <br>
+    <br>
+
+<form>
+    <h1>3.Travel Reservation form</h1>
+    <div> 
+        <label for="fullname">Full name*:</label> <br>
+        <input id="fullname" name="Full name" type="text" placeholder="First Name Last Name" size="30" maxlength="" minlength="3"
+        value="" required > 
+    </div>
+    <div> 
+        <label for="email">Full name*:</label> <br>
+        <input id="email" name="email" type="text" placeholder="Email_Adress" size="30" maxlength="" minlength="3"
+        value="" required > 
+    </div> 
+    <div> 
+        <label for="package">Select Tour Package*:</label> <br>
+        <select name="package" id="package">
+            <option value="goa">goa</option>
+            <option value="Kashmir">Kashmir</option>
+            <option value="karnataka">karnataka</option>
+        </select><br>
+    </div> 
+    <div> 
+        <label for="date">Arrival date*:</label> <br>
+        <input id="date" name="date" type="text" placeholder="m/d/y" size="30" maxlength="" minlength=""
+        value="" required > 
+    </div> 
+    <div> 
+        <label for="person">Number of persons*:</label> <br>
+        <input id="person" name="Noumber of persons" type="text" placeholder="Unknown_Type" size="30" maxlength="" minlength=""
+        value="" required > 
+    </div> 
+    <br>
+    <div>
+        <label>What would you want to avail?*</label><br>
+        Boarding <input type="checkbox" value="boarding" name="facility"> <br>
+        Fooding <input type="checkbox" value="Fooding" name="facility"> <br>
+        Sight Seeing <input type="checkbox" value="sight Seeing" name="facility"> <br>
+    </div>
+    <div>
+        <label for="discount">Discount Coupon code:</label> <br>
+        <input id="discount" name="discount coupon"  type="text" placeholder="Unknown_type" size="30" value="" required> 
+    </div>
+    <div>
+        <label>Terms and conditions*</label> <br>
+        <input type="radio" name="I agree" value="I agree">I agree
+        <input type="radio" name="I disagree" value="I disagree">I disagree
+    </div>
+    <input type="submit" value="complete reservation" >
+</form>
+</div>
+
+
+</body>
+</html>
