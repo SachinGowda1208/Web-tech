@@ -1,1 +1,1 @@
-# Wwb pages creating by Using HTML and CSS Extensions
+# Web pages creating by Using HTML and CSS Extensions
